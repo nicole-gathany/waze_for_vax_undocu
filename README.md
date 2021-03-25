@@ -6,3 +6,13 @@ I work in public health and I am a software engineer. There is a COVID-19 vaccin
 
 ## STACK
 Using React Native for mobile development
+
+## PLAN
+Using a mapping API only for the vaccination sites in Dekalb County to serve as a proof of concept.
+Will note how many noncitizens were turned away in a given day. 
+
+For example: 
+
+"2 people were turned away for not having ID at this site; 1 person was able to get the vaccine without ID"
+
+There should also be away for people to feel comfortable reporting without fear of persecution. There would also need to be a way to encourage people to use it because the usability of the app depends on how many people use it.
