@@ -1,0 +1,27 @@
+{
+  "name": "waze_for_vax_undocu",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicole-gathany/waze_for_vax_undocu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicole-gathany/waze_for_vax_undocu/issues"
+  },
+  "homepage": "https://github.com/nicole-gathany/waze_for_vax_undocu#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
