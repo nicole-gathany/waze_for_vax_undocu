@@ -1,5 +1,8 @@
-const express = require("express")
+const express = require('express')
 const app = express()
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
 
-app.listen(3000, () => console.log("Server started, baby!"))
+mongoose.connect('mongodb://localhost/vaccinesites', { useNewUrlParser: true })
+
+
+app.listen(3000, () => console.log('Server started!'))
