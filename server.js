@@ -11,6 +11,7 @@ app.get('/', (req, res)=> {
 
 app.post('/site', (req, res)=>{
     console.log("Helllooooooo, fam!")
+    //post request is not working
 })
 
 //what?
