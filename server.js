@@ -9,6 +9,10 @@ app.get('/', (req, res)=> {
     res.sendFile(__dirname + '/index.html') // I forgot the '/' before index.html before
 })
 
+app.post('/site', (req, res)=>{
+    console.log("Helllooooooo, fam!")
+})
+
 //what?
 app.listen(2021, ()=>{
     console.log('Serving software engineer realness')
