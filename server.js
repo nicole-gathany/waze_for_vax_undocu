@@ -23,11 +23,18 @@ MongoClient.connect(
 app.use(express.json());
 app.use(bodyParser.json({ type: "application/*+json" }));
 
+
 // mongoose.connect('mongodb://localhost/vaccinesites/', { useNewUrlParser: true , useUnifiedTopology: true } )
+
+
+//to set up ejs
+app.set("view engine", "ejs")
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html"); // I forgot the '/' before index.html before
 });
+
+
 
 app.post("/site", (req, res) => {
 
