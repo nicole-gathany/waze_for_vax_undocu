@@ -22,5 +22,5 @@ For example:
 
 "2 people were turned away for not having ID at this site. 1 person was able to get the vaccine without ID"
 
-There should also be away for people to feel comfortable reporting without fear of persecution. There would also need to be a way to encourage people to use it because the usability of the app depends on how many people use it.
+There should also be away for people to feel comfortable reporting without fear of persecution. There would also need to be a way to encourage people  regardless of immigration status to use it because the usability of the app depends on how many people use it. In other words, the more people who use the app, the more information there will be. The value of Waze is also user-driven in that way. 
 
